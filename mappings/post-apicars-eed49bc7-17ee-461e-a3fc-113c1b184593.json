@@ -1,0 +1,23 @@
+{
+  "id" : "eed49bc7-17ee-461e-a3fc-113c1b184593",
+  "request" : {
+    "url" : "/api/cars",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"brand\":\"volks\",\"model\":\"fusca\",\"year\":2019}"
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "jsonBody" : {
+      "message" : "Car successfully registered!",
+      "carId" : 6
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "eed49bc7-17ee-461e-a3fc-113c1b184593",
+  "persistent" : true,
+  "insertionIndex" : 3
+}

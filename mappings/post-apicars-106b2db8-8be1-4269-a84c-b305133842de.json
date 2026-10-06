@@ -1,0 +1,22 @@
+{
+  "id" : "106b2db8-8be1-4269-a84c-b305133842de",
+  "request" : {
+    "url" : "/api/cars",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"brand\":\"volks\",\"model\":\"up tsi\",\"year\":2019}"
+    } ]
+  },
+  "response" : {
+    "status" : 500,
+    "jsonBody" : {
+      "message" : "Internal server error: model 'up tsi' is not allowed."
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "106b2db8-8be1-4269-a84c-b305133842de",
+  "persistent" : true,
+  "insertionIndex" : 5
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "a89dc6b6-bc65-4ab4-994d-73c164637b4f",
+  "request" : {
+    "url" : "/api/cars",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : [ {
+      "brand" : "volks",
+      "model" : "gol",
+      "year" : 2018
+    } ],
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "a89dc6b6-bc65-4ab4-994d-73c164637b4f",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

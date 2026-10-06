@@ -1,0 +1,22 @@
+{
+  "id" : "5bc9cf4b-2a87-445f-bb75-c8521e4fba62",
+  "request" : {
+    "url" : "/api/cars",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"brand\":\"volks\",\"model\":\"ronaldo\",\"year\":2019}"
+    } ]
+  },
+  "response" : {
+    "status" : 404,
+    "jsonBody" : {
+      "message" : "Vehicle not found."
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "5bc9cf4b-2a87-445f-bb75-c8521e4fba62",
+  "persistent" : true,
+  "insertionIndex" : 4
+}

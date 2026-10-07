@@ -1,3 +1,42 @@
+## Finalidade do projeto
+
+O projeto simula uma API de gerenciamento de veículos e utiliza o WireMock para representar o comportamento de um backend real, permitindo testar diferentes respostas da API sem depender de um sistema de produção.
+
+Na prática, os testes automatizados simulam operações que um usuário ou sistema cliente faria, como:
+
+Consultar veículos → GET /api/cars
+Cadastrar um veículo válido → POST /api/cars → 201
+Tentar cadastrar um veículo inexistente/não encontrado → POST /api/cars → 404
+Tentar cadastrar um modelo não permitido → POST /api/cars → 500
+
+O CodeceptJS envia as requisições e valida se a API retorna exatamente o comportamento esperado. O WireMock atua como o backend simulado, fornecendo respostas previamente configuradas.
+
+Linha de raciocínio sob a perspectiva do usuário final
+
+Uma forma simples de explicar todo o projeto seria:
+
+Imagine que o usuário esteja utilizando uma aplicação de veículos.
+
+Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
+
+Quando o usuário solicita a consulta de veículos, a aplicação faz uma requisição GET para a API. O sistema deve responder corretamente com os veículos disponíveis.
+
+Quando o usuário cadastra um veículo válido, a aplicação envia uma requisição POST. O sistema deve confirmar o cadastro com uma resposta de sucesso (201) e retornar os dados esperados.
+
+Porém, nem todas as operações serão bem-sucedidas. Por isso, o projeto também verifica como o sistema se comporta diante de situações de erro, como um veículo não encontrado (404) ou um modelo não permitido que provoque um erro interno (500).
+
+Para reproduzir esses diferentes comportamentos de maneira controlada, o projeto utiliza o WireMock, que simula a API e permite definir previamente quais respostas devem ser retornadas.
+
+Por fim, o CodeceptJS automatiza essas interações e verifica se a API realmente responde conforme o comportamento esperado.
+
+## Em uma única frase
+
+É um projeto de automação de testes de API que simula uma aplicação de gerenciamento de veículos, utilizando o WireMock como backend simulado e o CodeceptJS para validar automaticamente cenários de sucesso e diferentes condições de erro.
+
+Essa última frase é, na minha opinião, a melhor descrição para colocar no início do seu README, porque explica o que o projeto faz, o que ele simula e qual é a finalidade, sem entrar prematuramente nos detalhes técnicos.
+
+
+
 ## 🤖 Testes de API com CodeceptJS e WireMock
 
 Projeto de automação de testes de API desenvolvido com **CodeceptJS**, utilizando os helpers `REST` e `JSONResponse`, executados contra uma API simulada com **WireMock**.

@@ -4,7 +4,7 @@ Projeto de automação de testes de API desenvolvido com **CodeceptJS**, utiliza
 
 O projeto demonstra a aplicação de testes automatizados para validação de diferentes comportamentos de uma API REST, contemplando cenários de **sucesso, recurso inexistente e erro interno**.
 
-A estrutura foi organizada para permitir uma configuração simples e reproduzível do ambiente, facilitando a execução por profissionais de **QA, desenvolvimento, liderança técnica e Talent Acquisition**.
+A estrutura é organizada para permitir uma configuração simples e reproduzível do ambiente, facilitando a execução.
 
 ---
 

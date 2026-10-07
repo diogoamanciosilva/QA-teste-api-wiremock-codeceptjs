@@ -1,4 +1,4 @@
-# Testes de API com CodeceptJS e WireMock
+## 🤖 Testes de API com CodeceptJS e WireMock
 
 Projeto de automação de testes de API desenvolvido com **CodeceptJS**, utilizando os helpers `REST` e `JSONResponse`, executados contra uma API simulada com **WireMock**.
 

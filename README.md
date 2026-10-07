@@ -852,3 +852,15 @@ OK | 4 passed
 ```
 
 Isso demonstra que o ambiente, o servidor simulado WireMock, a configuração do CodeceptJS e a suíte de testes estão funcionando de forma integrada.
+
+
+## 📊 Relatórios de testes
+
+O projeto utiliza o **Mochawesome Report** para gerar relatórios visuais das execuções dos testes automatizados realizados com **CodeceptJS**.
+
+O relatório permite acompanhar de forma clara os **cenários executados, resultados, falhas e duração dos testes**, proporcionando maior **visibilidade, rastreabilidade e facilidade na análise dos resultados**.
+
+Essa prática transforma os resultados da automação em uma evidência estruturada da qualidade da aplicação, facilitando a identificação de falhas e a comunicação dos resultados entre **QA, desenvolvimento e demais envolvidos no projeto**.
+
+O relatório pode ser consultado por meio do arquivo `mochawesome.html`, disponibilizado na pasta `backend/mochawesome-report/`.
+

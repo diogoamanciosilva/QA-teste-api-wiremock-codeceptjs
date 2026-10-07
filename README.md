@@ -16,24 +16,20 @@ Linha de raciocínio sob a perspectiva do usuário final
 Uma forma simples de explicar todo o projeto seria:
 
 Imagine que o usuário esteja utilizando uma aplicação de veículos.
-
 Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
 
 Quando o usuário solicita a consulta de veículos, a aplicação faz uma requisição GET para a API. O sistema deve responder corretamente com os veículos disponíveis.
-
 Quando o usuário cadastra um veículo válido, a aplicação envia uma requisição POST. O sistema deve confirmar o cadastro com uma resposta de sucesso (201) e retornar os dados esperados.
 
 Porém, nem todas as operações serão bem-sucedidas. Por isso, o projeto também verifica como o sistema se comporta diante de situações de erro, como um veículo não encontrado (404) ou um modelo não permitido que provoque um erro interno (500).
-
 Para reproduzir esses diferentes comportamentos de maneira controlada, o projeto utiliza o WireMock, que simula a API e permite definir previamente quais respostas devem ser retornadas.
-
 Por fim, o CodeceptJS automatiza essas interações e verifica se a API realmente responde conforme o comportamento esperado.
 
 ## Em uma única frase
 
 É um projeto de automação de testes de API que simula uma aplicação de gerenciamento de veículos, utilizando o WireMock como backend simulado e o CodeceptJS para validar automaticamente cenários de sucesso e diferentes condições de erro.
 
-Essa última frase é, na minha opinião, a melhor descrição para colocar no início do seu README, porque explica o que o projeto faz, o que ele simula e qual é a finalidade, sem entrar prematuramente nos detalhes técnicos.
+<img width="1312" height="1199" alt="Infográfico de Testes de API com CodeceptJS e WireMock" src="https://github.com/user-attachments/assets/953ca99a-9606-49ca-97c6-40d9f62a36c8" />
 
 
 

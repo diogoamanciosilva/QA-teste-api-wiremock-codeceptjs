@@ -772,6 +772,23 @@ npx codeceptjs run --verbose
 
 ---
 
+## Postman
+
+O Postman é importante no projeto porque permite testar e validar a API manualmente antes e durante a automação.
+
+No seu cenário, ele cumpre principalmente três funções:
+
+Validar os endpoints: permite verificar GET /api/cars e POST /api/cars diretamente.
+Conferir requisições e respostas: facilita analisar método HTTP, payload JSON, status codes (200, 201, 404, 500) e mensagens retornadas.
+Dar suporte à automação: antes de transformar um cenário em teste automatizado no CodeceptJS, o Postman permite confirmar qual é o comportamento esperado da API.
+Em resumo
+
+Postman → validação manual da API → CodeceptJS → automação dos cenários → WireMock → simulação controlada do backend.
+
+Ou seja, o Postman não substitui o CodeceptJS. Ele complementa a automação, funcionando como uma ferramenta de exploração, validação e diagnóstico da API.
+
+Essa combinação demonstra uma abordagem interessante: primeiro entender e validar o comportamento da API; depois automatizar os cenários que precisam ser executados de forma repetitiva e confiável.
+
 # ✅ Validação do ambiente
 
 O ambiente está configurado corretamente quando todas as condições abaixo forem atendidas:

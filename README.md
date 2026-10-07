@@ -758,15 +758,17 @@ Esse resultado confirma que o ambiente de testes está configurado corretamente 
 
 ---
 
-# 🧰 Tecnologias
+## 🏷️ Tecnologias utilizadas
 
-* [CodeceptJS](https://codecept.io/)
-* [WireMock](https://wiremock.org/)
-* [Node.js](https://nodejs.org/)
-* Java
-* Git
-* PowerShell
-
+![Web Testing](https://img.shields.io/badge/Web%20Testing-Automation-1E88E5?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-Runtime-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Test%20Automation-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CodeceptJS](https://img.shields.io/badge/CodeceptJS-Test%20Automation-6C63FF?style=for-the-badge)
+![Playwright](https://img.shields.io/badge/Playwright-Web%20Testing-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Testes Automatizados](https://img.shields.io/badge/Automated%20Testing-QA-1E88E5?style=for-the-badge)
+![Test Scripts](https://img.shields.io/badge/Test%20Scripts-Automation-CB171E?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
+![Gherkin](https://img.shields.io/badge/Gherkin-BDD-5B5B5B?style=for-the-badge)
 ---
 
 ## 🎯 Resultado esperado

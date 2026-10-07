@@ -820,6 +820,7 @@ Esse resultado confirma que o ambiente de testes está configurado corretamente 
 ![REST API](https://img.shields.io/badge/REST%20API-Testing-6C63FF?style=for-the-badge)
 ![Postman](https://img.shields.io/badge/Postman-API%20Testing-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
 ![CodeceptJS](https://img.shields.io/badge/CodeceptJS-API%20Testing-6C63FF?style=for-the-badge)
+![Mochawesome](https://img.shields.io/badge/Mochawesome-Test%20Reporting-6C63FF?style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Test%20Automation-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-Runtime-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
 ![WireMock](https://img.shields.io/badge/WireMock-API%20Mocking-6C63FF?style=for-the-badge)

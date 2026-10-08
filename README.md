@@ -444,7 +444,7 @@ https://github.com/user-attachments/assets/41e2e5ef-0b70-4623-a24e-5e31b2a15d8c
 
 ---
 
-## 📊 Relatórios de testes
+## 📊 Relatórios de testes: Mochawesome
 
 O projeto utiliza o **Mochawesome** para gerar relatórios visuais das execuções.
 

@@ -413,6 +413,10 @@ https://github.com/user-attachments/assets/76369f5c-6d55-410b-abad-0dc24e388ae4
 | :--- | :--- | :--- |
 | **02** | **Cenário:** Cadastro de veículo com dados válidos <br><br> **Dado** que o payload da requisição contenha todos os campos obrigatórios e válidos <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o sistema deve cadastrar o veículo na base de dados | Cadastrar um veículo válido → `POST /api/cars` → `201` |
 
+## 🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/d6ed52f9-1536-4c3e-9c4c-c939ca61e228
+
 ---
 
 ### 3. Tentar cadastrar um veículo inexistente

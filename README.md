@@ -438,6 +438,10 @@ https://github.com/user-attachments/assets/53cf60da-51ed-4f51-820b-f6e1c1b8f48f
 | :--- | :--- | :--- |
 | **04** | **Cenário:** Tentativa de cadastro com modelo não permitido <br><br> **Dado** que o payload contenha um modelo restrito ou inválido para o sistema <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o servidor deve retornar uma falha interna | Tentar cadastrar um modelo não permitido → `POST /api/cars` → `500` |
 
+## 🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/41e2e5ef-0b70-4623-a24e-5e31b2a15d8c
+
 ---
 
 ## 📊 Relatórios de testes

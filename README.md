@@ -319,6 +319,10 @@ version: 3.9.1
 port: 8080
 ```
 
+## 🎬 **Vídeo:**
+
+
+
 > ⚠️ **Não feche esse terminal.** O WireMock precisa permanecer em execução durante os testes.
 
 ---
@@ -342,6 +346,8 @@ Consulta de veiculos --
 
   OK  | 4 passed
 ```
+
+## 🎬 **Vídeo:**
 
 ### Modo detalhado
 

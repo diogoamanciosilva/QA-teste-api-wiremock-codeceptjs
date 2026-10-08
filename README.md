@@ -435,3 +435,33 @@ O ambiente está correto quando todas as condições abaixo forem atendidas:
 5. WireMock iniciado na porta `8080`
 6. Os quatro cenários executados sem falhas
 7. Terminal apresenta `OK | 4 passed`
+
+ ---
+
+## 🚧 Limitações e escopo
+
+
+
+------------
+
+
+ ## 🚀 Próximos passos (CI/CD)
+
+
+ ---
+ 
+## 💡 Aprendizados técnicos
+
+
+
+ ---
+ 
+ ## 📬 Contato
+
+ 
+| LinkedIn                   |  https://www.linkedin.com/in/diogoamanciosilva/ |
+| ------------------------- | ------: |
+
+| E-mail                   |  diogoamanciosilva@gmail.com/ |
+| ------------------------- | ------: |
+

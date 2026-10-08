@@ -394,6 +394,37 @@ O Postman complementa a automação como ferramenta de exploração e validaçã
 
 > Postman → validação manual → CodeceptJS → automação → WireMock → simulação do backend.
 
+
+### 1. Consultar veículos
+
+| ID | Descrição | Endpoint / Fluxo |
+| :--- | :--- | :--- |
+| **01** | **Cenário:** Consulta de lista de veículos cadastrados com sucesso <br><br> **Dado** que a API esteja online e com registros cadastrados na base de dados <br> **Quando** o cliente enviar uma requisição `GET` para o endpoint `/api/cars` <br> **Então** o sistema deve retornar a lista de veículos cadastrados | Consultar veículos → `GET /api/cars` → `200` |
+
+---
+
+### 2. Cadastrar um veículo válido
+
+| ID | Descrição | Endpoint / Fluxo |
+| :--- | :--- | :--- |
+| **02** | **Cenário:** Cadastro de veículo com dados válidos <br><br> **Dado** que o payload da requisição contenha todos os campos obrigatórios e válidos <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o sistema deve cadastrar o veículo na base de dados | Cadastrar um veículo válido → `POST /api/cars` → `201` |
+
+---
+
+### 3. Tentar cadastrar um veículo inexistente
+
+| ID | Descrição | Endpoint / Fluxo |
+| :--- | :--- | :--- |
+| **03** | **Cenário:** Tentativa de cadastro referenciando um recurso inexistente <br><br> **Dado** que o payload informe um identificador de recurso não cadastrado <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o sistema deve recusar o cadastro | Tentar cadastrar um veículo inexistente → `POST /api/cars` → `404` |
+
+---
+
+### 4. Tentar cadastrar um modelo não permitido
+
+| ID | Descrição | Endpoint / Fluxo |
+| :--- | :--- | :--- |
+| **04** | **Cenário:** Tentativa de cadastro com modelo não permitido <br><br> **Dado** que o payload contenha um modelo restrito ou inválido para o sistema <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o servidor deve retornar uma falha interna | Tentar cadastrar um modelo não permitido → `POST /api/cars` → `500` |
+
 ---
 
 ## 📊 Relatórios de testes

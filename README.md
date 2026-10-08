@@ -322,6 +322,8 @@ port: 8080
 ## 🎬 **Vídeo:**
 
 
+https://github.com/user-attachments/assets/687afc1d-f93b-4820-99ba-f5e9046547e9
+
 
 > ⚠️ **Não feche esse terminal.** O WireMock precisa permanecer em execução durante os testes.
 

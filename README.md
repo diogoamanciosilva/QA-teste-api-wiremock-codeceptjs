@@ -351,6 +351,10 @@ Consulta de veiculos --
 
 ## 🎬 **Vídeo:**
 
+
+https://github.com/user-attachments/assets/4b4bad36-0754-4fd1-8218-c17393b2b952
+
+
 ### Modo detalhado
 
 ```powershell

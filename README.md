@@ -401,6 +401,10 @@ O Postman complementa a automação como ferramenta de exploração e validaçã
 | :--- | :--- | :--- |
 | **01** | **Cenário:** Consulta de lista de veículos cadastrados com sucesso <br><br> **Dado** que a API esteja online e com registros cadastrados na base de dados <br> **Quando** o cliente enviar uma requisição `GET` para o endpoint `/api/cars` <br> **Então** o sistema deve retornar a lista de veículos cadastrados | Consultar veículos → `GET /api/cars` → `200` |
 
+🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/76369f5c-6d55-410b-abad-0dc24e388ae4
+
 ---
 
 ### 2. Cadastrar um veículo válido

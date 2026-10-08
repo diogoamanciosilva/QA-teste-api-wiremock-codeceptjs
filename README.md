@@ -406,6 +406,10 @@ O relatório pode ser consultado em:
 backend/mochawesome-report/mochawesome.html
 ```
 
+## 🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/d63cd263-7e91-4a78-bfe9-212dab089143
+
 ---
 
 # 🛠️ Problemas comuns

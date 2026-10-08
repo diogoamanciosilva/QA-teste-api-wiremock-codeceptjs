@@ -361,6 +361,10 @@ https://github.com/user-attachments/assets/4b4bad36-0754-4fd1-8218-c17393b2b952
 npx codeceptjs run --verbose
 ```
 
+## 🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/d42b4911-3fe0-478a-b40d-a0d87f9a912e
+
 ---
 
 # 🔄 Fluxo completo de execução

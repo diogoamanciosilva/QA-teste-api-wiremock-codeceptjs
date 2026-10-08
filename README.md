@@ -21,7 +21,7 @@ Na prática, os testes automatizados simulam operações que um usuário ou sist
 
 O CodeceptJS envia as requisições e valida se a API retorna exatamente o comportamento esperado. O WireMock atua como o backend simulado, fornecendo respostas previamente configuradas.
 
-### Linha de raciocínio sob a perspectiva do usuário final
+### 🧠 Linha de raciocínio sob a perspectiva do usuário final
 
 Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
 

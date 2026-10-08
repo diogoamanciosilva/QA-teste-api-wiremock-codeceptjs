@@ -35,7 +35,8 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 
 ---
 
-<img width="1312" height="1199" alt="Infográfico de Testes de API com CodeceptJS e WireMock" src="https://github.com/user-attachments/assets/953ca99a-9606-49ca-97c6-40d9f62a36c8" />
+<img width="1312" height="1199" alt="Infográfico de Testes de API com CodeceptJS e WireMock (1)" src="https://github.com/user-attachments/assets/d57003a9-7681-4c06-8428-da980fe51768" />
+
 
 ---
 

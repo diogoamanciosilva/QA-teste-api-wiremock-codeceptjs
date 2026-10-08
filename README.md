@@ -8,6 +8,30 @@ A estrutura é organizada para permitir uma configuração simples e reproduzív
 
 ---
 
+## 📑 Índice
+
+- [🚗 Sobre o projeto](#-sobre-o-projeto)
+- [📌 Finalidade do projeto](#-finalidade-do-projeto)
+- [🧠 Linha de raciocínio sob a perspectiva do usuário final](#-linha-de-raciocínio-sob-a-perspectiva-do-usuário-final)
+- [🏷️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [📁 Estrutura do projeto](#-estrutura-do-projeto)
+- [⚙️ Instalação e configuração do ambiente](#️-instalação-e-configuração-do-ambiente)
+- [🚀 Execução do projeto](#-execução-do-projeto)
+- [🔄 Fluxo completo de execução](#-fluxo-completo-de-execução)
+- [⚙️ Configuração do CodeceptJS](#️-configuração-do-codeceptjs)
+- [🧩 Como o WireMock funciona neste projeto](#-como-o-wiremock-funciona-neste-projeto)
+- [🔭 Postman](#-postman)
+- [🧪 O que é testado](#-o-que-é-testado)
+- [📊 Relatórios de testes: Mochawesome](#-relatórios-de-testes-mochawesome)
+- [🛠️ Problemas comuns](#️-problemas-comuns)
+- [✅ Validação do ambiente](#-validação-do-ambiente)
+- [🚧 Limitações e escopo](#-limitações-e-escopo)
+- [🚀 Próximos passos (CI/CD)](#-próximos-passos-cicd)
+- [💡 Aprendizados técnicos](#-aprendizados-técnicos)
+- [📬 Contato](#-contato)
+
+---
+
 ## 📌 Finalidade do projeto
 
 O projeto simula uma API de gerenciamento de veículos e utiliza o WireMock para representar o comportamento de um backend real, permitindo testar diferentes respostas da API sem depender de um sistema de produção.

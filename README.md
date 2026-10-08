@@ -425,6 +425,11 @@ https://github.com/user-attachments/assets/d6ed52f9-1536-4c3e-9c4c-c939ca61e228
 | :--- | :--- | :--- |
 | **03** | **Cenário:** Tentativa de cadastro referenciando um recurso inexistente <br><br> **Dado** que o payload informe um identificador de recurso não cadastrado <br> **Quando** o cliente enviar uma requisição `POST` para o endpoint `/api/cars` <br> **Então** o sistema deve recusar o cadastro | Tentar cadastrar um veículo inexistente → `POST /api/cars` → `404` |
 
+
+## 🎬 **Vídeo:**
+
+https://github.com/user-attachments/assets/53cf60da-51ed-4f51-820b-f6e1c1b8f48f
+
 ---
 
 ### 4. Tentar cadastrar um modelo não permitido

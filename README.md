@@ -14,7 +14,7 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 ## 📑 Índice
 
 - [📌 Finalidade do projeto](#-finalidade-do-projeto)
-- [🧭 A jornada do usuário](#-a-jornada-do-usuário)
+- [🧭 A Jornada do usuário](#-a-jornada-do-usuário)
 - [🏷️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
 - [📁 Estrutura do projeto](#-estrutura-do-projeto)
 - [⚙️ Instalação e configuração do ambiente](#️-instalação-e-configuração-do-ambiente)

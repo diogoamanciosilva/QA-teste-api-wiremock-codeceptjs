@@ -5,8 +5,6 @@ Projeto de automação de testes de **API desenvolvido com CodeceptJS**, utiliza
 
 A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma API REST. 
 
-O projeto contempla a realização de consultas de dados, o processamento de cadastros válidos e a identificação de cadastros não permitidos, além de tratar adequadamente requisições de recursos inexistentes.
-
 A base didática e API Simulada com base nos conhecimentos adquiridos no curso **Automação API com JavaScript**, desenvolvida pela **Qazando** (https://qazando.com.br), **Professores Eduardo Finotti e Hebert Soares.**
 
 Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo Amancio**.

@@ -60,9 +60,17 @@ O CodeceptJS envia as requisições e valida se a API retorna exatamente o compo
 
 Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
 
+```text
 - Quando o usuário **consulta veículos**, a aplicação faz uma requisição GET. O sistema deve responder com os veículos disponíveis.
+```
+
+```text
 - Quando o usuário **cadastra um veículo válido**, a aplicação envia uma requisição POST. O sistema deve confirmar o cadastro com uma resposta de sucesso (`201`).
+```
+
+```text
 - O projeto também verifica como o sistema se comporta diante de **situações de erro**, como um veículo não encontrado (`404`) ou um modelo não permitido que provoque um erro interno (`500`).
+```
 
 ### 🎯 Objetivo da Automação
 

@@ -387,8 +387,8 @@ https://github.com/user-attachments/assets/d42b4911-3fe0-478a-b40d-a0d87f9a912e
 
 ## 📸 **Print:**
 
-<img width="1542" height="725" alt="image" src="https://github.com/user-attachments/assets/6e63b12e-5855-4a57-9fa2-2c606972daa6" />
-<img width="1537" height="715" alt="image" src="https://github.com/user-attachments/assets/17fff194-ca1d-4fa7-ba53-02bb271bafc6" />
+<img width="1913" height="726" alt="image" src="https://github.com/user-attachments/assets/fd32590c-111b-4593-8491-05506732cc38" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/95789130-b832-4e41-9c18-a71abca4f2c6" />
 
 ---
 

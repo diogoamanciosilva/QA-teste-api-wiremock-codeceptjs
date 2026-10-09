@@ -49,7 +49,7 @@ O projeto simula uma **API de gerenciamento de veículo**s e utiliza o **WireMoc
 
 Na prática, os testes automatizados simulam operações que um usuário ou sistema cliente faria, como:
 
-* **- Consultar veículos → `GET /api/cars` → `200`**
+* ** Consultar veículos → `GET /api/cars` → `200`**
 * **- Cadastrar um veículo válido → `POST /api/cars` → `201`**
 * **- Tentar cadastrar um veículo inexistente → `POST /api/cars` → `404`**
 * **- Tentar cadastrar um modelo não permitido → `POST /api/cars` → `500`**

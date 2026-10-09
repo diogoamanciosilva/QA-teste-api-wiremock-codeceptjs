@@ -15,7 +15,9 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 
 - [📌 Finalidade do projeto](#-finalidade-do-projeto)
 - [🧭 A Jornada do usuário](#-a-jornada-do-usuário)
+- [🎯 Objetivo da Automação](#-objetivo-da-automação)
 - [🏷️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
+- [🤖 O que é testado](#-o-que-é-testado)
 - [📁 Estrutura do projeto](#-estrutura-do-projeto)
 - [⚙️ Instalação e configuração do ambiente](#️-instalação-e-configuração-do-ambiente)
 - [🚀 Execução do projeto](#-execução-do-projeto)
@@ -31,6 +33,9 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [🚀 Próximos passos (CI/CD)](#-próximos-passos-cicd)
 - [💡 Aprendizados técnicos](#-aprendizados-técnicos)
 - [📬 Contato](#-contato)
+
+
+#-objetivo-da-automação
 
 ---
 

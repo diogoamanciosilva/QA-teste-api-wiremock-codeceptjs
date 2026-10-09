@@ -25,6 +25,10 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [⚙️ Configuração do CodeceptJS](#️-configuração-do-codeceptjs)
 - [🧩 Como o WireMock funciona neste projeto](#-como-o-wiremock-funciona-neste-projeto)
 - [🔭 Postman](#-postman)
+- [🚙 1. Consultar veículos](#-1-consultar-ve%C3%ADculos)
+
+
+
 - [🧪 O que é testado](#-o-que-é-testado)
 - [📊 Relatórios de testes: Mochawesome](#-relatórios-de-testes-mochawesome)
 - [🛠️ Problemas comuns](#️-problemas-comuns)

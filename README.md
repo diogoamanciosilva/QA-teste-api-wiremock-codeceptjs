@@ -64,7 +64,7 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 - Quando o usuário **cadastra um veículo válido**, a aplicação envia uma requisição POST. O sistema deve confirmar o cadastro com uma resposta de sucesso (`201`).
 - O projeto também verifica como o sistema se comporta diante de **situações de erro**, como um veículo não encontrado (`404`) ou um modelo não permitido que provoque um erro interno (`500`).
 
-### Em uma única frase
+### 🎯 Objetivo da Automação
 
 > É um projeto de automação de testes de API que simula uma aplicação de gerenciamento de veículos, utilizando o WireMock como backend simulado e o CodeceptJS para validar automaticamente cenários de sucesso e diferentes condições de erro.
 

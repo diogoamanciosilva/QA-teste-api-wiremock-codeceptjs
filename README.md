@@ -34,9 +34,6 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [💡 Aprendizados técnicos](#-aprendizados-técnicos)
 - [📬 Contato](#-contato)
 
-
-#-objetivo-da-automação
-
 ---
 
 ## 📌 Finalidade do projeto

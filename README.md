@@ -3,16 +3,9 @@
 
 Projeto de automação de testes de **API desenvolvido com CodeceptJS**, utilizando os **helpers REST e JSONResponse** integrados ao **WireMock** para mock e simulação de serviços.
 
-A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma **API REST** através de cenários como:
+A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma API REST. 
 
-* **Consultas de dados**
-
-* **Cadastros válidos (permitidos)**
-
-* **Cadastros inválidos (não permitidos)**
-
-* **Requisições de recursos inexistentes**
-
+O projeto contempla a realização de consultas de dados, o processamento de cadastros válidos e a identificação de cadastros não permitidos, além de tratar adequadamente requisições de recursos inexistentes.
 
 A base didática e API Simulada com base nos conhecimentos adquiridos no curso **Automação API com JavaScript**, desenvolvida pela **Qazando** (https://qazando.com.br), **Professores Eduardo Finotti e Hebert Soares.**
 

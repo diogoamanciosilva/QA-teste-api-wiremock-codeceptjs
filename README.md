@@ -25,10 +25,10 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [⚙️ Configuração do CodeceptJS](#️-configuração-do-codeceptjs)
 - [🧩 Como o WireMock funciona neste projeto](#-como-o-wiremock-funciona-neste-projeto)
 - [🔭 Postman](#-postman)
-- [🚙 1. Consultar veículos](#-1-consultar-ve%C3%ADculos)
+- [🔎🚙 1. Consultar veículos](#-1-consultar-ve%C3%ADculos)
 - [➕🚘 2. Cadastrar um veículo válido](#-2-cadastrar-um-veículo-válido)
 - [⁉️🛻 3. Tentar cadastrar um veículo inexistente](#%EF%B8%8F-3-tentar-cadastrar-um-veículo-inexistente)
-- [🚫🛻 4. Tentar cadastrar um modelo não permitido](#-4-tentar-cadastrar-um-modelo-não-permitido)
+- [🚫🛞 4. Tentar cadastrar um modelo não permitido](#-4-tentar-cadastrar-um-modelo-não-permitido)
 - [🧪 O que é testado](#-o-que-é-testado)
 - [📊 Relatórios de testes: Mochawesome](#-relatórios-de-testes-mochawesome)
 - [🛠️ Problemas comuns](#️-problemas-comuns)
@@ -485,7 +485,7 @@ https://github.com/user-attachments/assets/53cf60da-51ed-4f51-820b-f6e1c1b8f48f
 
 ---
 
-### 🚫🛻 4. Tentar cadastrar um modelo não permitido
+### 🚫🛞 4. Tentar cadastrar um modelo não permitido
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |

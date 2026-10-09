@@ -73,8 +73,6 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 
 <img width="1312" height="1199" alt="Testes de API com CodeceptJS e WireMock" src="https://github.com/user-attachments/assets/28d6fb83-e31d-490f-856d-15b497647fe4" />
 
-
-
 ---
 
 ## 🏷️ Tecnologias utilizadas
@@ -115,7 +113,7 @@ A suíte contempla quatro cenários:
 
 ### Cenários automatizados
 
-#### 1. Consulta de veículos
+#### 🚘 1. Consulta de veículos
 
 ```http
 GET /api/cars
@@ -129,7 +127,7 @@ HTTP 200
 
 ---
 
-#### 2. Cadastro de veículo
+#### ✅ 2. Cadastro de veículo
 
 ```json
 {
@@ -156,7 +154,7 @@ Com retorno contendo:
 
 ---
 
-#### 3. Veículo inexistente
+#### 3. ❓ Veículo inexistente
 
 ```json
 {
@@ -182,7 +180,7 @@ Com retorno:
 
 ---
 
-#### 4. Modelo não permitido
+#### 🚫 4. Modelo não permitido
 
 ```json
 {

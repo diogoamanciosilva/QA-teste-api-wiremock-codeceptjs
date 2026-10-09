@@ -1,12 +1,9 @@
 # 🚗 QA — Testes de API com CodeceptJS e WireMock
 
 
-Versão Polida e Profissional (Ideal para a visão geral do README)
-Sobre o Projeto
+Projeto de automação de testes de **API desenvolvido com CodeceptJS**, utilizando os **helpers REST e JSONResponse** integrados ao **WireMock** para mock e simulação de serviços.
 
-Projeto de automação de testes de API desenvolvido com CodeceptJS, utilizando os helpers REST e JSONResponse integrados ao WireMock para mock e simulação de serviços.
-
-A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma API REST através de cenários como:
+A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma **API REST** através de cenários como:
 
 * **Consultas de dados**
 

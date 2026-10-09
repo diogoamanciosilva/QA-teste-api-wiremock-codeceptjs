@@ -60,12 +60,12 @@ O CodeceptJS envia as requisições e valida se a API retorna exatamente o compo
 
 Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
 
-* **- Quando o usuário **consulta veículos**, a aplicação faz uma requisição GET. O sistema deve responder com os veículos disponíveis.**
-
-* **- Quando o usuário **cadastra um veículo válido**, a aplicação envia uma requisição POST. O sistema deve confirmar o cadastro com uma resposta de sucesso (`201`).**
-
-* **- O projeto também verifica como o sistema se comporta diante de **situações de erro**, como um veículo não encontrado (`404`) ou um modelo não permitido que provoque um erro interno (`500`).**
-
+| Cenário / Funcionalidade | Método / Status HTTP | Validação de Comportamento |
+| :--- | :---: | :--- |
+| **Consulta de Veículos** | `GET` | Retorna a lista completa de veículos disponíveis. |
+| **Cadastro de Veículo Válido** | `POST` (`201`) | Registra o novo veículo e confirma a criação com sucesso. |
+| **Recurso Inexistente** | `GET` / `POST` (`404`) | Garante que requisições para veículos inexistentes sejam tratadas corretamente. |
+| **Erro Interno do Servidor** | `POST` (`500`) | Valida a resposta do sistema diante de envios com modelos não permitidos. |
 
 ### 🎯 Objetivo da Automação
 

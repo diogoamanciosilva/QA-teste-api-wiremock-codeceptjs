@@ -111,9 +111,9 @@ A suíte contempla quatro cenários:
 | Veículo inexistente (ronaldo) | `POST` | `404` + `Vehicle not found.`          |
 | Modelo não permitido (up tsi) | `POST` | `500` + mensagem de erro interno      |
 
-### Cenários automatizados
+# 📲 Cenários automatizados
 
-####  1. Consulta de veículos
+####  📍 1. Consulta de veículos
 
 ```http
 GET /api/cars
@@ -127,7 +127,7 @@ HTTP 200
 
 ---
 
-#### 2. Cadastro de veículo
+#### 📍 2. Cadastro de veículo
 
 ```json
 {
@@ -154,7 +154,7 @@ Com retorno contendo:
 
 ---
 
-#### 3.  Veículo inexistente
+#### 📍 3.  Veículo inexistente
 
 ```json
 {
@@ -180,7 +180,7 @@ Com retorno:
 
 ---
 
-####  4. Modelo não permitido
+####  📍 4. Modelo não permitido
 
 ```json
 {
@@ -247,7 +247,7 @@ O procedimento foi validado em ambiente **Windows utilizando PowerShell**.
 
 ---
 
-## 📌1. Pré-requisitos
+## 📍1. Pré-requisitos
 
 | Ferramenta     | Finalidade                                      |
 | -------------- | ----------------------------------------------- |
@@ -259,7 +259,7 @@ O procedimento foi validado em ambiente **Windows utilizando PowerShell**.
 
 ---
 
-## 📌2. Verificar as instalações
+## 📍2. Verificar as instalações
 
 ```powershell
 git --version
@@ -272,7 +272,7 @@ java -version
 
 ---
 
-## 📌3. Clonar o repositório
+## 📍3. Clonar o repositório
 
 ```powershell
 git clone https://github.com/diogoamanciosilva/QA-teste-api-wiremock-codeceptjs.git
@@ -281,7 +281,7 @@ cd QA-teste-api-wiremock-codeceptjs
 
 ---
 
-## 📌4. Baixar o WireMock
+## 📍4. Baixar o WireMock
 
 O arquivo `wiremock-standalone-3.9.1.jar` não está versionado no repositório. Faça o download executando o comando abaixo na **raiz do projeto**:
 
@@ -297,7 +297,7 @@ dir *.jar
 
 ---
 
-## 📌5. Instalar as dependências do projeto
+## 📍5. Instalar as dependências do projeto
 
 ```powershell
 cd backend

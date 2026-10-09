@@ -471,7 +471,7 @@ https://github.com/user-attachments/assets/d6ed52f9-1536-4c3e-9c4c-c939ca61e228
 
 ---
 
-### ⁉️🛻 3. Tentar cadastrar um veículo inexistente
+# ⁉️🛻 3. Tentar cadastrar um veículo inexistente
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |

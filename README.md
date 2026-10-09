@@ -11,7 +11,7 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 
 ---
 
-## 📑 Índice
+# 📑 Índice
 
 - [📌 Finalidade do projeto](#-finalidade-do-projeto)
 - [🧭 A Jornada do usuário](#-a-jornada-do-usuário)
@@ -39,7 +39,7 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 
 ---
 
-## 📌 Finalidade do projeto
+# 📌 Finalidade do projeto
 
 O projeto simula uma **API de gerenciamento de veículo**s e utiliza o **WireMock** para representar o **comportamento de um backend real**, permitindo testar diferentes respostas da API sem depender de um sistema de produção.
 
@@ -54,7 +54,7 @@ Na prática, os testes automatizados simulam operações que um usuário ou sist
 
 O CodeceptJS envia as requisições e valida se a API retorna exatamente o comportamento esperado. O WireMock atua como o backend simulado, fornecendo respostas previamente configuradas.
 
-### 🧭 A Jornada do usuário
+# 🧭 A Jornada do usuário
 
 Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa aplicação precisa conversar com uma API para consultar e cadastrar veículos.
 
@@ -65,7 +65,7 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 | **Recurso Inexistente** | `GET` / `POST` (`404`) | Garante que requisições para veículos inexistentes sejam tratadas corretamente. |
 | **Erro Interno do Servidor** | `POST` (`500`) | Valida a resposta do sistema diante de envios com modelos não permitidos. |
 
-### 🎯 Objetivo da Automação
+# 🎯 Objetivo da Automação
 
 > É um projeto de automação de testes de API que simula uma aplicação de gerenciamento de veículos, utilizando o WireMock como backend simulado e o CodeceptJS para validar automaticamente cenários de sucesso e diferentes condições de erro.
 
@@ -75,7 +75,7 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 
 ---
 
-## 🏷️ Tecnologias utilizadas
+# 🏷️ Tecnologias utilizadas
 
 ![API](https://img.shields.io/badge/API-Testing-1E88E5?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/REST%20API-Testing-6C63FF?style=for-the-badge)
@@ -94,7 +94,7 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 
 ---
 
-## 🤖 O que é testado
+# 🤖 O que é testado
 
 Os testes automatizados validam o endpoint:
 
@@ -206,7 +206,7 @@ Com retorno:
 
 ---
 
-## 📁 Estrutura do projeto
+# 📁 Estrutura do projeto
 
 ```text
 QA-teste-api-wiremock-codeceptjs/

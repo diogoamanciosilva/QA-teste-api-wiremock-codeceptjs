@@ -19,7 +19,8 @@ A suíte foi organizada para oferecer um ambiente modular, simples e de fácil e
 
 **Autoria da Suíte de Testes:** Diogo Amancio
 
-**Base Didática e API Simulada: Curso Automação API com JavaScript da Qazando, ministrado pelos professores Eduardo Finotti e Hebert Soares.**
+
+**Base Didática e API Simulada: Curso Automação API com JavaScript da Qazando (https://qazando.com.br)**
 ---
 
 ## 📑 Índice

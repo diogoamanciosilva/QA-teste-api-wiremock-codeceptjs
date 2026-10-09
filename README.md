@@ -536,13 +536,15 @@ https://github.com/user-attachments/assets/d63cd263-7e91-4a78-bfe9-212dab089143
 
 O ambiente está correto quando todas as condições abaixo forem atendidas:
 
-1. Git, Node.js, npm e Java instalados e disponíveis no terminal
-2. Repositório clonado corretamente
-3. WireMock baixado e presente na raiz do projeto
-4. Dependências instaladas com `npm install` dentro de `backend/`
-5. WireMock iniciado na porta `8080`
-6. Os quatro cenários executados sem falhas
-7. Terminal apresenta `OK | 4 passed`
+| Etapa / Checklist | Categoria | Resultado Esperado |
+| :--- | :---: | :--- |
+| **Prerequisites** | Ambiente | Git, Node.js, npm e Java instalados e disponíveis no terminal |
+| **Repository Setup** | Clonagem | Repositório clonado localmente com sucesso |
+| **WireMock Setup** | Mock Backend | Arquivo JAR do WireMock baixado na raiz do projeto |
+| **Dependencies** | Instalação | Dependências instaladas com `npm install` dentro de `backend/` |
+| **Server Execution** | Mock Backend | Servidor WireMock iniciado e escutando na porta `8080` |
+| **Test Execution** | Automação | Todos os 4 cenários de teste executados sem falhas |
+| **Verification** | Terminal Output | Console exibe a confirmação de execução: `OK \| 4 passed` |
 
  ---
 

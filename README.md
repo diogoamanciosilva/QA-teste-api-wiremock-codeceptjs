@@ -113,7 +113,7 @@ A suíte contempla quatro cenários:
 
 ### Cenários automatizados
 
-#### 🚘 1. Consulta de veículos
+####  1. Consulta de veículos
 
 ```http
 GET /api/cars
@@ -127,7 +127,7 @@ HTTP 200
 
 ---
 
-#### ✅ 2. Cadastro de veículo
+#### 2. Cadastro de veículo
 
 ```json
 {
@@ -154,7 +154,7 @@ Com retorno contendo:
 
 ---
 
-#### 3. ❓ Veículo inexistente
+#### 3.  Veículo inexistente
 
 ```json
 {
@@ -180,7 +180,7 @@ Com retorno:
 
 ---
 
-#### 🚫 4. Modelo não permitido
+####  4. Modelo não permitido
 
 ```json
 {
@@ -447,7 +447,7 @@ O Postman complementa a automação como ferramenta de exploração e validaçã
 > Postman → validação manual → CodeceptJS → automação → WireMock → simulação do backend.
 
 
-### 1. Consultar veículos
+### 🔎🚙 1. Consultar veículos
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |
@@ -459,7 +459,7 @@ https://github.com/user-attachments/assets/76369f5c-6d55-410b-abad-0dc24e388ae4
 
 ---
 
-### 2. Cadastrar um veículo válido
+### ➕🚘 2. Cadastrar um veículo válido
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |
@@ -471,7 +471,7 @@ https://github.com/user-attachments/assets/d6ed52f9-1536-4c3e-9c4c-c939ca61e228
 
 ---
 
-### 3. Tentar cadastrar um veículo inexistente
+### ⁉️🛻 3. Tentar cadastrar um veículo inexistente
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |
@@ -484,7 +484,7 @@ https://github.com/user-attachments/assets/53cf60da-51ed-4f51-820b-f6e1c1b8f48f
 
 ---
 
-### 4. Tentar cadastrar um modelo não permitido
+### 🚫🛻 4. Tentar cadastrar um modelo não permitido
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |

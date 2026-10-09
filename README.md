@@ -96,7 +96,7 @@ Imagine que o usuário esteja utilizando uma aplicação de veículos. Essa apli
 
 # 🤖 O que é testado
 
-Os testes automatizados validam o endpoint:
+👉🏻 Os testes automatizados validam o endpoint:
 
 ```text
 /api/cars

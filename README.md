@@ -335,6 +335,11 @@ port: 8080
 
 https://github.com/user-attachments/assets/687afc1d-f93b-4820-99ba-f5e9046547e9
 
+## 📸 **Print:**
+
+
+<img width="1913" height="1078" alt="image" src="https://github.com/user-attachments/assets/7dd60178-5ee0-4723-bc18-9e2b7a8268ec" />
+
 
 > ⚠️ **Não feche esse terminal.** O WireMock precisa permanecer em execução durante os testes.
 
@@ -365,6 +370,10 @@ Consulta de veiculos --
 
 https://github.com/user-attachments/assets/4b4bad36-0754-4fd1-8218-c17393b2b952
 
+## 📸 **Print:**
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/1428239d-7ac0-4951-97da-bf10e507f3c0" />
+
 
 ### 📍Modo detalhado
 
@@ -375,6 +384,11 @@ npx codeceptjs run --verbose
 ## 🎬 **Vídeo:**
 
 https://github.com/user-attachments/assets/d42b4911-3fe0-478a-b40d-a0d87f9a912e
+
+## 📸 **Print:**
+
+<img width="1542" height="725" alt="image" src="https://github.com/user-attachments/assets/6e63b12e-5855-4a57-9fa2-2c606972daa6" />
+<img width="1537" height="715" alt="image" src="https://github.com/user-attachments/assets/17fff194-ca1d-4fa7-ba53-02bb271bafc6" />
 
 ---
 

@@ -10,7 +10,6 @@ A estrutura é organizada para permitir uma configuração simples e reproduzív
 
 ## 📑 Índice
 
-- [🚗 Sobre o projeto](#-sobre-o-projeto)
 - [📌 Finalidade do projeto](#-finalidade-do-projeto)
 - [🧠 Linha de raciocínio sob a perspectiva do usuário final](#-linha-de-raciocínio-sob-a-perspectiva-do-usuário-final)
 - [🏷️ Tecnologias utilizadas](#️-tecnologias-utilizadas)

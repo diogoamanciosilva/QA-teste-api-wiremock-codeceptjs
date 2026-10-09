@@ -436,7 +436,7 @@ WireMock
 
 ---
 
-## 🔭 Postman
+# 🔭 Postman
 
 O Postman complementa a automação como ferramenta de exploração e validação manual:
 
@@ -447,7 +447,7 @@ O Postman complementa a automação como ferramenta de exploração e validaçã
 > Postman → validação manual → CodeceptJS → automação → WireMock → simulação do backend.
 
 
-### 🔎🚙 1. Consultar veículos
+# 🔎🚙 1. Consultar veículos
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |
@@ -459,7 +459,7 @@ https://github.com/user-attachments/assets/76369f5c-6d55-410b-abad-0dc24e388ae4
 
 ---
 
-### ➕🚘 2. Cadastrar um veículo válido
+# ➕🚘 2. Cadastrar um veículo válido
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |
@@ -484,7 +484,7 @@ https://github.com/user-attachments/assets/53cf60da-51ed-4f51-820b-f6e1c1b8f48f
 
 ---
 
-### 🚫🛞 4. Tentar cadastrar um modelo não permitido
+# 🚫🛞 4. Tentar cadastrar um modelo não permitido
 
 | ID | Descrição | Endpoint / Fluxo |
 | :--- | :--- | :--- |

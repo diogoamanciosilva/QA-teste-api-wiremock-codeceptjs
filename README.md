@@ -1,4 +1,4 @@
-# 🚗 QA — Testes de API com CodeceptJS e WireMock
+==# 🚗 QA — Testes de API com CodeceptJS e WireMock
 
 
 Projeto de automação de testes de **API desenvolvido com CodeceptJS**, utilizando os **helpers REST e JSONResponse** integrados ao **WireMock** para mock e simulação de serviços.
@@ -247,7 +247,7 @@ O procedimento foi validado em ambiente **Windows utilizando PowerShell**.
 
 ---
 
-## 1. Pré-requisitos
+## 📌1. Pré-requisitos
 
 | Ferramenta     | Finalidade                                      |
 | -------------- | ----------------------------------------------- |
@@ -259,7 +259,7 @@ O procedimento foi validado em ambiente **Windows utilizando PowerShell**.
 
 ---
 
-## 2. Verificar as instalações
+## 📌2. Verificar as instalações
 
 ```powershell
 git --version
@@ -272,7 +272,7 @@ java -version
 
 ---
 
-## 3. Clonar o repositório
+## 📌3. Clonar o repositório
 
 ```powershell
 git clone https://github.com/diogoamanciosilva/QA-teste-api-wiremock-codeceptjs.git
@@ -281,7 +281,7 @@ cd QA-teste-api-wiremock-codeceptjs
 
 ---
 
-## 4. Baixar o WireMock
+## 📌4. Baixar o WireMock
 
 O arquivo `wiremock-standalone-3.9.1.jar` não está versionado no repositório. Faça o download executando o comando abaixo na **raiz do projeto**:
 
@@ -297,7 +297,7 @@ dir *.jar
 
 ---
 
-## 5. Instalar as dependências do projeto
+## 📌5. Instalar as dependências do projeto
 
 ```powershell
 cd backend
@@ -314,7 +314,7 @@ A execução envolve dois processos rodando em paralelo — utilize **duas janel
 
 ---
 
-## Terminal 1 — Iniciar o WireMock
+## 📍Terminal 1 — Iniciar o WireMock
 
 Na raiz do projeto, execute:
 
@@ -339,14 +339,14 @@ https://github.com/user-attachments/assets/687afc1d-f93b-4820-99ba-f5e9046547e9
 
 ---
 
-## Terminal 2 — Executar os testes
+## 📍Terminal 2 — Executar os testes
 
 ```powershell
 cd backend
 npx codeceptjs run
 ```
 
-### Resultado esperado
+### 📍Resultado esperado
 
 ```text
 Consulta de veiculos --
@@ -365,7 +365,7 @@ Consulta de veiculos --
 https://github.com/user-attachments/assets/4b4bad36-0754-4fd1-8218-c17393b2b952
 
 
-### Modo detalhado
+### 📍Modo detalhado
 
 ```powershell
 npx codeceptjs run --verbose
@@ -412,7 +412,7 @@ helpers: {
 }
 ```
 
-> **Importante:** a porta utilizada pelo WireMock e a configurada no `endpoint` do CodeceptJS precisam ser iguais.
+> ⚠️**Importante:** a porta utilizada pelo WireMock e a configurada no `endpoint` do CodeceptJS precisam ser iguais.
 
 ---
 

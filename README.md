@@ -18,6 +18,7 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [🎯 Objetivo da Automação](#-objetivo-da-automação)
 - [🏷️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
 - [🤖 O que é testado](#-o-que-é-testado)
+- [📱 Cenários Automatizados](#-cenários-automatizados)
 - [📁 Estrutura do projeto](#-estrutura-do-projeto)
 - [⚙️ Instalação e configuração do ambiente](#️-instalação-e-configuração-do-ambiente)
 - [🚀 Execução do projeto](#-execução-do-projeto)

@@ -29,7 +29,6 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 - [➕🚘 2. Cadastrar um veículo válido](#-2-cadastrar-um-veículo-válido)
 - [⁉️🛻 3. Tentar cadastrar um veículo inexistente](#%EF%B8%8F-3-tentar-cadastrar-um-veículo-inexistente)
 - [🚫🛞 4. Tentar cadastrar um modelo não permitido](#-4-tentar-cadastrar-um-modelo-não-permitido)
-- [🧪 O que é testado](#-o-que-é-testado)
 - [📊 Relatórios de testes: Mochawesome](#-relatórios-de-testes-mochawesome)
 - [🛠️ Problemas comuns](#️-problemas-comuns)
 - [✅ Validação do ambiente](#-validação-do-ambiente)

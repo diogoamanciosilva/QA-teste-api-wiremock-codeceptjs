@@ -45,14 +45,14 @@ Todos os testes e a estrutura deste repositório foram desenvolvidos por **Diogo
 
 ## 📌 Finalidade do projeto
 
-O projeto simula uma API de gerenciamento de veículos e utiliza o WireMock para representar o comportamento de um backend real, permitindo testar diferentes respostas da API sem depender de um sistema de produção.
+O projeto simula uma **API de gerenciamento de veículo**s e utiliza o **WireMock** para representar o **comportamento de um backend real**, permitindo testar diferentes respostas da API sem depender de um sistema de produção.
 
 Na prática, os testes automatizados simulam operações que um usuário ou sistema cliente faria, como:
 
-- Consultar veículos → `GET /api/cars` → `200`
+**- Consultar veículos → `GET /api/cars` → `200`
 - Cadastrar um veículo válido → `POST /api/cars` → `201`
 - Tentar cadastrar um veículo inexistente → `POST /api/cars` → `404`
-- Tentar cadastrar um modelo não permitido → `POST /api/cars` → `500`
+- Tentar cadastrar um modelo não permitido → `POST /api/cars` → `500`**
 
 O CodeceptJS envia as requisições e valida se a API retorna exatamente o comportamento esperado. O WireMock atua como o backend simulado, fornecendo respostas previamente configuradas.
 

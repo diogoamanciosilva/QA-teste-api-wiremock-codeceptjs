@@ -496,7 +496,7 @@ https://github.com/user-attachments/assets/41e2e5ef-0b70-4623-a24e-5e31b2a15d8c
 
 ---
 
-## 📊 Relatórios de testes: Mochawesome
+# 📊 Relatórios de testes: Mochawesome
 
 O projeto utiliza o **Mochawesome Repor**t para gerar relatórios visuais das execuções dos testes automatizados realizados com CodeceptJS.
 

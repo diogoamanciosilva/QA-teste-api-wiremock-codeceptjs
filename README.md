@@ -1,11 +1,25 @@
 # 🚗 QA — Testes de API com CodeceptJS e WireMock
 
-Projeto de automação de testes de API desenvolvido com **CodeceptJS**, utilizando os helpers `REST` e `JSONResponse`, executados contra uma API simulada com **WireMock**.
 
-O projeto demonstra a aplicação de testes automatizados para validação de diferentes comportamentos de uma API REST, contemplando cenários de **sucesso, recurso inexistente e erro interno**.
+Versão Polida e Profissional (Ideal para a visão geral do README)
+Sobre o Projeto
 
-A estrutura é organizada para permitir uma configuração simples e reproduzível do ambiente, facilitando a execução.
+Projeto de automação de testes de API desenvolvido com CodeceptJS, utilizando os helpers REST e JSONResponse integrados ao WireMock para mock e simulação de serviços.
 
+A suíte foi organizada para oferecer um ambiente modular, simples e de fácil execução, validando múltiplos comportamentos de uma API REST através de cenários como:
+
+* **Consultas de dados**
+
+* **Cadastros válidos (permitidos)**
+
+* **Cadastros inválidos (não permitidos)**
+
+* **Requisições de recursos inexistentes**
+
+
+**Autoria da Suíte de Testes:** Diogo Amancio
+
+Base Didática e API Simulada: Curso Automação API com JavaScript da Qazando, ministrado pelos professores Eduardo Finotti e Hebert Soares.
 ---
 
 ## 📑 Índice
